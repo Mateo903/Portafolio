@@ -1,0 +1,85 @@
+/* body {
+    background-color: #e0e0ff20;
+} */
+
+body{
+    background: url(../images/fondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 50px;
+    margin-top: 50px;
+    font-family: 'times new roman' ;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nombre{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'times new roman' ;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sub{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'times new roman' ;
+    display: inline;
+}
+
+#foto{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#foto:hover{
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05,1.05);
+}
+
+
+.icon{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.icon img{
+    width: 40px;
+    height: 40px;
+    margin: 30px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+#twitter:hover {
+    /* margin-right: 50px; */
+    transform: scale(1.05,1.05);
+}
+
+#link:hover {
+    /* margin-right: 50px; */
+    transform: scale(1.05,1.05);
+}
+
+#insta:hover {
+    /* margin-right: 50px; */
+    transform: scale(1.05,1.05);
+}
+
+
+
